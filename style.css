@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+nav li{
+    color: orange;
+    font-size: 30px;
+    list-style: none;
+    font-family: cursive;
+}
+.gamecontainer{
+    display: flex;
+    justify-content: center;
+    
+    background-color: orange;
+    height: 85vh;
+   
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    margin-top: 40px;
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color:orangered;
+}
+.gameinfo{
+    padding: 0 34px;
+    
+}
+.gameinfo h1{
+    font-size: 35px;
+    font-family:cursive;
+    font-style: italic;
+    color: black;
+}
+.bt-0
+{
+    border-top: 0;
+}
+.bl-0
+{
+    border-left: 0;
+}
+.br-0
+{
+    border-right: 0;
+}
+.bb-0
+{
+    border-bottom: 0;
+}
+.info{
+    font-size: 30px;
+    color: black;
+    font-family: cursive;
+    text-decoration: solid;
+}
+#reset{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: cursive;
+    border-radius: 40%;
+    
+    background: black;
+    color: orange;
+    border: none;
+
+}
+#reset:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.boxtext{
+    color: black;
+    font-family: cursive;
+}
+.owner{
+    float: right;
+    margin-top: 60px;
+    font-family: cursive;
+    font-size: 1.5em;
+}
